@@ -1,15 +1,15 @@
 ### Get All Products
 
-GET http://localhost:3000/api/products
+GET http://localhost:8080/api/v1/books
 Accept: application/json
 
 ### Create New Product
-POST http://localhost:3000/api/products
+POST http://localhost:8080/api/v1/books
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Rog tuf",
-  "price": 40000000,
-  "quantity": 10
+  "title": "Rog tuf",
+  "author": "cecep",
+  "rating": 10
 }
